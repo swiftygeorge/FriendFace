@@ -15,6 +15,10 @@
 		324237A727CF1B540001146D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237A627CF1B540001146D /* Friend.swift */; };
 		324237A927CF1E6A0001146D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237A827CF1E6A0001146D /* Users.swift */; };
 		324237AB27CF2D2C0001146D /* UserListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237AA27CF2D2C0001146D /* UserListRowView.swift */; };
+		324237AD27CF34E70001146D /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237AC27CF34E70001146D /* UserDetailView.swift */; };
+		324237AF27CF36780001146D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237AE27CF36780001146D /* Constant.swift */; };
+		324237B227CF46900001146D /* UserDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237B127CF46900001146D /* UserDetailRow.swift */; };
+		324237B427CF51960001146D /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324237B327CF51960001146D /* FriendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		324237A627CF1B540001146D /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		324237A827CF1E6A0001146D /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		324237AA27CF2D2C0001146D /* UserListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRowView.swift; sourceTree = "<group>"; };
+		324237AC27CF34E70001146D /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		324237AE27CF36780001146D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		324237B127CF46900001146D /* UserDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailRow.swift; sourceTree = "<group>"; };
+		324237B327CF51960001146D /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 				3242379427CF15CE0001146D /* FriendFaceApp.swift */,
 				324237A227CF17500001146D /* View */,
 				324237A527CF1B3E0001146D /* Model */,
+				324237B027CF367C0001146D /* Constant */,
 				3242379827CF15CF0001146D /* Assets.xcassets */,
 				3242379A27CF15CF0001146D /* Preview Content */,
 			);
@@ -81,6 +90,9 @@
 			children = (
 				3242379627CF15CE0001146D /* ContentView.swift */,
 				324237AA27CF2D2C0001146D /* UserListRowView.swift */,
+				324237AC27CF34E70001146D /* UserDetailView.swift */,
+				324237B127CF46900001146D /* UserDetailRow.swift */,
+				324237B327CF51960001146D /* FriendView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +105,14 @@
 				324237A627CF1B540001146D /* Friend.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		324237B027CF367C0001146D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				324237AE27CF36780001146D /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +187,13 @@
 			files = (
 				324237AB27CF2D2C0001146D /* UserListRowView.swift in Sources */,
 				3242379727CF15CE0001146D /* ContentView.swift in Sources */,
+				324237B227CF46900001146D /* UserDetailRow.swift in Sources */,
 				3242379527CF15CE0001146D /* FriendFaceApp.swift in Sources */,
+				324237AF27CF36780001146D /* Constant.swift in Sources */,
 				324237A927CF1E6A0001146D /* Users.swift in Sources */,
+				324237AD27CF34E70001146D /* UserDetailView.swift in Sources */,
 				324237A427CF17C50001146D /* User.swift in Sources */,
+				324237B427CF51960001146D /* FriendView.swift in Sources */,
 				324237A727CF1B540001146D /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

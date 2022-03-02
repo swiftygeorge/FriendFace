@@ -18,24 +18,22 @@ struct UserListRowView: View {
             Spacer()
             
             if user.isActive {
-                Text("Online")
+                Text("online")
                     .foregroundColor(.secondary)
-                    .font(.caption)
+                    .font(.system(size: 10))
                 
                 Image(systemName: "circle")
                     .symbolVariant(.fill)
                     .foregroundColor(.green)
-                    .font(.caption)
+                    .font(.system(size: 8))
             }
         }
     }
 }
 
 struct UserListRowView_Previews: PreviewProvider {
-    static var user = User(id: "", isActive: true, name: "John Doe", age: 25, company: "", email: "", address: "", about: "", registered: "", tags: [], friends: [])
-    
     static var previews: some View {
-        UserListRowView(user: user)
+        UserListRowView(user: exampleUser)
             .previewLayout(.sizeThatFits)
             .padding()
     }

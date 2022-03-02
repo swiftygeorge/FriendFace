@@ -19,7 +19,10 @@ final class Users: ObservableObject {
             let (data, _) = try await URLSession.shared.data(from: url)
             let decoder = JSONDecoder()
             let decodedProfiles = try decoder.decode(Array<User>.self, from: data)
-            profiles = decodedProfiles
+            
+            DispatchQueue.main.async {
+                self.profiles = decodedProfiles
+            }
         } catch {
             print(error.localizedDescription)
         }
